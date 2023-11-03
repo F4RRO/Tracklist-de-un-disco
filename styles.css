@@ -1,0 +1,51 @@
+/* Establezco el ancho y sombra para la imagen de portada y la tabla */
+img.portada, table.tabla {
+  width: 250px;
+  box-shadow: 2px 2px black;
+}
+
+/* Defino los bordes de la tabla y las celdas  */
+table.tabla, table.tabla td {
+  border: 3px solid red;
+}
+
+/* Me aseguro de que los bordes de las celdas de la tabla estén juntos */
+table.tabla {
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+
+/* Escojo una fuente y color de fondo para los encabezados de la tabla */
+table.tabla th {
+  font-family: Verdana;
+  background-color: pink;
+}
+
+/* Agrego espacio dentro de las celdas */
+table.tabla td {
+  padding-left: 5px;
+  font-family: Impact;
+}
+
+/* Resalto la fila que indica la canción que está reproduciéndose para que llame la atención */
+#reproduciendo {
+  background-color: yellow;
+  font-weight: bold;
+  color: red;
+  text-shadow: 2px 2px black;
+}
+
+/* Doy un estilo distintivo a la primera columna para que los números resalten */
+.columna_a {
+  width: 15%;
+  background-color: hotpink;
+}
+
+/* Ajusto el ancho de las columnas para distribuir el espacio de forma equitativa */
+.columna_b {
+  width: 60%;
+}
+
+.columna_c {
+  width: 25%;
+}
